@@ -1,8 +1,8 @@
-# arkmanager-auto-shutdown-tool
-
+# arkmanager auto shutdown tool
+Ark: Survival EvolvedのLinuxサーバーのツールである[arkmanager](#https://github.com/arkmanager/ark-server-tools)を使用してサーバーを立ち上げ、プレイヤーが遊んでいなければ自動でサーバーを停止させるツールです。  
 
 # 概要
-サーバーの状態を監視し、プレイヤーがいなくなった場合には自動的にサーバーを停止させます。  
+arkmanagerの機能でサーバーの状態を監視し、プレイヤーがいなくなった場合には自動的にサーバーを停止させます。  
 初回接続が行われるまでは30分間、プレイヤーが接続した後には10分間誰も接続していなければ、サーバーを停止させます。  
 
 # 使い方
